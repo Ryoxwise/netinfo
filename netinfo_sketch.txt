@@ -1,0 +1,30 @@
+[+] Network Information:
+---
+CIDR: 192.168.1.163/24
+
+Network Prefix:		/24
+Netmask:		255.255.255.0
+Total Hosts:		254 (+2)
+Network ID:		192.168.0.1
+Broadcast Address:	192.168.0.255
+---
+
+[+] Network report:
+
+Network:	192.168.1.163/24
+IP Range:	192.168.1.0 - 192.168.1.255
+Host Count:	254 (Max)
+
+---
+
+[+] About the network:
+
+The network identified has a CIDR: [ 192.168.1.0/24 ], with an address range of [ 192.168.1.0 - 192.168.1.255 ], where up to [ 254 hosts ] can be allocated. 
+Target hosts should be within [ 192.168.1.1 - 192.168.1.254 ]
+
+Perform network scan? (y/n)
+
+netrep -c 192.168.1.0/24 -s
+netrep -r 192.168.1.0-192.168.1.255 -s
+netrep -m 192.168.1.0-255.255.255.0 -s
+
